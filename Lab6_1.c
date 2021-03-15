@@ -12,6 +12,12 @@ int main()
     {
         fgets(str[i], sizeof(str[i]), stdin);
     }
+    for(int i=0; i<=a; ++i)
+    {
+        for(int j=i+1; j<=a; ++j)
+        {
 
+        }
+    }
 
 }
