@@ -8,5 +8,10 @@ int main()
     scanf("%d",&a);
     char str[a][50];
 
+    for(int i=0; i<=a; ++i)
+    {
+        fgets(str[i], sizeof(str[i]), stdin);
+    }
+
 
 }
