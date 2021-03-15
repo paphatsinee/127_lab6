@@ -25,4 +25,10 @@ int main()
         }
     }
 
+    for(int i=0; i<=a; ++i)
+    {
+        fputs(str[i], stdout);
+    }
+
+    return 0;
 }
