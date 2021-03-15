@@ -16,7 +16,12 @@ int main()
     {
         for(int j=i+1; j<=a; ++j)
         {
-
+            if(strcmp(str[i], str[j]) > 0)
+            {
+                strcpy(temp, str[i]);
+                strcpy(str[i], str[j]);
+                strcpy(str[j], temp);
+            }
         }
     }
 
